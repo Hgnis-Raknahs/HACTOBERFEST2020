@@ -7,7 +7,7 @@ def prime_generator(n):
     # Note: we are creating a list as to have less space complexity 
     primes = [True]*(n+1)
     primes[0] = False
-    primes[1] =  False
+    primes[1] = False
     # As 0 and 1 are Not Primes
     for p in range(2, int(sqrt(n))+1):
         # As the primes starts with 2 
@@ -18,7 +18,7 @@ def prime_generator(n):
     # Inserted of the numbers of  the list are displayed 
     for i in range(0, len(primes)):
         if primes[i] == True:
-            # we are extracting every number from list and printing them indivudually
+            # we are extracting every number from list and printing them individually
             print(i, end=" ")
 
 print("Enter the test cases: ")
